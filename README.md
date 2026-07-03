@@ -1,6 +1,6 @@
 # Elevate-labs-internship-Task-4
 
-A simple test to verify Windows Defender Firewall behavior by blocking inbound traffic on a specific port (Telnet, TCP 23).
+A simple test to verify Windows Defender Firewall behavior by blocking inbound traffic on a specific port.
 
 ### Objective
 
