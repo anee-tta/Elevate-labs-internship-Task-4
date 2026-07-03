@@ -1,0 +1,11 @@
+How the Firewall Filters Traffic
+
+` Windows Defender Firewall evaluates each packet against a prioritized set of rules.
+` Rules are matched by criteria such as:
+  ` Direction (inbound/outbound)
+  ` Protocol (TCP/UDP)
+  ` Local/remote port and IP address
+  ` Profile (Domain/Private/Public)
+` When a packet matches a rule, the firewall applies that rule’s action.
+` If no rule matches, the default policy applies .
+` By creating a specific “Block” rule for port 23, we forced the firewall to drop inbound Telnet traffic regardless of other rules, and then removed that rule to restore normal behavior.
