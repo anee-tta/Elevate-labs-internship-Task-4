@@ -17,7 +17,7 @@ A simple test to verify Windows Defender Firewall behavior by blocking inbound t
 ### Steps
 
  1. Open Firewall.
- 2. List current inbound rules.
- 3. Create a test rule to block inbound TCP port 23.
+ 2. Go through current inbound rules.
+ 3. Create a new inbound rule to block TCP port 23.
  4. Test that the port is blocked on Powershell.
  5. Remove the test rule.
