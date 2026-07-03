@@ -17,7 +17,7 @@ Port tested: TCP 23 (Telnet).
 ### Steps
 
  1. Open PowerShell as Administrator.
- 2.List current inbound rules.
+ 2. List current inbound rules.
  3. Create a test rule to block inbound TCP port 23.
  4. Test that the port is blocked.
  5. Remove the test rule.
