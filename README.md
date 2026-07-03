@@ -10,9 +10,9 @@ A simple test to verify Windows Defender Firewall behavior by blocking inbound t
 
 ### Environment
 
-- OS: Windows (Defender Firewall).
-- PowerShell (run as Administrator).
-- Port tested: TCP 23 (Telnet).
+- Windows Firewall.
+- PowerShell.
+- Port tested: TCP 23.
 
 ### Steps
 
