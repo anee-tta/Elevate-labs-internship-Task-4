@@ -4,15 +4,15 @@ This repo documents a simple test to verify Windows Defender Firewall behavior b
 
 ### Objective
 
-` Add a temporary rule to block inbound traffic on a port.
-` Verify the block works.
-` Remove the test rule and restore the original state.
+- Add a temporary rule to block inbound traffic on a port.
+- Verify the block works.
+- Remove the test rule and restore the original state.
 
 ### Environment
 
-OS: Windows (Defender Firewall).
-PowerShell (run as Administrator).
-Port tested: TCP 23 (Telnet).
+= OS: Windows (Defender Firewall).
+= PowerShell (run as Administrator).
+- Port tested: TCP 23 (Telnet).
 
 ### Steps
 
