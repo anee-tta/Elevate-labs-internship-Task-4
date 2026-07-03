@@ -10,8 +10,8 @@ This repo documents a simple test to verify Windows Defender Firewall behavior b
 
 ### Environment
 
-= OS: Windows (Defender Firewall).
-= PowerShell (run as Administrator).
+- OS: Windows (Defender Firewall).
+- PowerShell (run as Administrator).
 - Port tested: TCP 23 (Telnet).
 
 ### Steps
