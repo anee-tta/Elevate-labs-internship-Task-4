@@ -8,4 +8,4 @@ How the Firewall Filters Traffic
   ` Profile (Domain/Private/Public)
 ` When a packet matches a rule, the firewall applies that rule’s action.
 ` If no rule matches, the default policy applies .
-` By creating a specific “Block” rule for port 23, we forced the firewall to drop inbound Telnet traffic regardless of other rules, and then removed that rule to restore normal behavior.
+` By creating a specific Block rule for port 23, we forced the firewall to drop inbound Telnet traffic regardless of other rules, and then removed that rule to restore normal behavior.
